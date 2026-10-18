@@ -1,2 +1,2 @@
-# Curios-v11
-This is the Foundry v11 version of my Curios module
+# Curios
+Wonderous Magic Item, Scrolls, Potions, Wands and Psionic Treasures generation.

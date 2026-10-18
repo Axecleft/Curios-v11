@@ -1,0 +1,76 @@
+{
+  "id": "axeclefts-curios",
+  "title": "Axecleft's Curios",
+  "description": "3.5 SRD potions, scrolls, wands, rings, rods, staffs and wondrous items for the D35E system, with the psionic equivalents (psionic tattoos, power stones, dorjes, universal items, cognizance crystals, psicrowns). Spell items are made on demand from your spell and power compendiums. Multi-spell scrolls, multi-power stones and spellbooks as master items. Supplies the shared Axecleft Treasure and Merchant Generators and adds the Curios tab.",
+  "version": "1.11.9.24",
+  "manifest": "https://github.com/Axecleft/Curios-v11/releases/latest/download/module.json",
+  "download": "https://github.com/Axecleft/Curios-v11/releases/download/1.11.9.24/module.zip",
+  "url": "https://github.com/Axecleft/Curios-v11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Axecleft",
+      "discord": "axecleft"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.4.3"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "axeclefts-armory",
+        "type": "module",
+        "manifest": "https://github.com/Axecleft/Armory-v11/releases/latest/download/module.json",
+        "reason": "Weapons, armor, shields, ammo, and crafting",
+        "compatibility": {}
+      },
+      {
+        "id": "traps-and-poisons",
+        "type": "module",
+        "manifest": "https://github.com/Axecleft/Traps-and-Poisons-v11/releases/latest/download/module.json",
+        "reason": "Traps, poisons, diseases and crafting.",
+        "compatibility": {}
+      },
+      {
+        "id": "axecleft-gemstones",
+        "type": "module",
+        "manifest": "https://github.com/Axecleft/Axeclefts-Gemstones-v11/releases/latest/download/module.json",
+        "reason": "Gems, art objects and jewelry for treasure and merchants",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/axecleft-tools.js",
+    "scripts/axecleft-crafting.js",
+    "scripts/axecleft-treasure.js",
+    "scripts/axecleft-merchants.js",
+    "scripts/curios.js"
+  ],
+  "packs": [
+    {
+      "name": "common-buffs",
+      "label": "Common Buffs",
+      "path": "packs/common-buffs",
+      "type": "Item",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
