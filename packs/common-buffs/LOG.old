@@ -1,0 +1,5 @@
+2026/10/16-02:05:43.858 3fac Recovering log #3
+2026/10/16-02:05:43.859 3fac Level-0 table #5: started
+2026/10/16-02:05:43.906 3fac Level-0 table #5: 99545 bytes OK
+2026/10/16-02:05:43.993 3fac Delete type=0 #3
+2026/10/16-02:05:43.993 3fac Delete type=3 #2
